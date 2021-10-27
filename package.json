@@ -1,0 +1,32 @@
+{
+  "name": "iap_auto",
+  "version": "1.0.0",
+  "description": "Internal Audit Workflow Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmersha/iap_auto.git"
+  },
+  "author": "Yohannes Mitike Mersha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonmersha/iap_auto/issues"
+  },
+  "homepage": "https://github.com/jonmersha/iap_auto#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "json-2-csv": "^3.14.1",
+    "mongoose": "^5.12.9",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6"
+  }
+}
